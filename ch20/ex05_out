@@ -1,0 +1,250 @@
+mwh@coyote:[~/work/c++/PPP_LAB/Artix/ch20_work]:                                       
+$ ----> ./ex5++                                                                        
+                                                                                       
+Printing vec_int: 1  2  3  4  -3  -7                                                   
+                                                                                       
+Now add new integers to vec_int.                                                       
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  Z                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 3                                 
+                                                                                       
+Enter elements over Integer Field, x = a                                               
+                                                                                       
+Enter element 7 of 6: 15                                                               
+                                                                                       
+Enter element 8 of 7: -12                                                              
+                                                                                       
+Enter element 9 of 8: -34.3                                                            
+                                                                                       
+Now vec_int is: 1  2  3  4  -3  -7  15  -12  -34                                       
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...                                     
+                                                                                       
+                                                                                       
+Enter real numbers into vec_real.                                                      
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  R                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 5                                 
+                                                                                       
+Enter elements over Real Field, x = [decimal number]                                   
+                                                                                       
+Enter element 1 of 5: 3.4                                                              
+                                                                                       
+Enter element 2 of 5: -.5                                                              
+                                                                                       
+Enter element 3 of 5: 2.3337                                                           
+                                                                                       
+Enter element 4 of 5: -3                                                               
+                                                                                       
+Enter element 5 of 5: 16.25                                                            
+                                                                                       
+Now vec_real is: 3.4  -0.5  2.3337  -3  16.25                                          
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...                                     
+                                                                                       
+                                                                                       
+Enter characters into vec_char.                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  h                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 6                                 
+                                                                                       
+Enter elements over field of characters:                                               
+                                                                                       
+Enter element 1 of 6: f                                                                
+                                                                                       
+Enter element 2 of 6: uck                                                              
+                                                                                       
+Enter element 3 of 6:                                                                  
+Enter element 4 of 6:                                                                  
+Enter element 5 of 6: !                                                                
+                                                                                       
+Enter element 6 of 6: ?                                                                
+                                                                                       
+Now vec_char is: f  u  c  k  !  ?                                                      
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...                                     
+                                                                                       
+                                                                                       
+Enter complex numbers into vec_complex.                                                
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  C                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 3                                 
+                                                                                       
+Enter elements over Complex Field, x = a + bi                                          
+                                                                                       
+Enter element 1 of 3:                                                                  
+z = x + i y.  Enter real part x: 5                                                     
+                                                                                       
+Enter imaginary part y: 0                                                              
+                                                                                       
+Enter element 2 of 3:                                                                  
+z = x + i y.  Enter real part x: 9-2                                                   
+                                                                                       
+Enter imaginary part y:                                                                
+Enter element 3 of 3:                                                                  
+z = x + i y.  Enter real part x: 4                                                     
+                                                                                       
+Enter imaginary part y: 0                                                              
+                                                                                       
+Now vec_complex is: 5 + i 0  9 - i 2  4 + i 0                                          
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...                                     
+                                                                                       
+                                                                                       
+Enter Fractions into vec_rational.                                                     
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  Q                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 4                                 
+                                                                                       
+Enter elements over Rational Field, x = a/b                                            
+                                                                                       
+Include division symbol between integers, as in 1/2                                    
+                                                                                       
+Enter element 1 of 4:                                                                  
+Enter Rational Number as fraction a/b,                                                 
+ where a and b are Integers (Z/Z) separated by '/'                                     
+ or enter single Integer (Z) : -1/2                                                    
+                                                                                       
+Enter element 2 of 4:                                                                  
+Enter Rational Number as fraction a/b,                                                 
+ where a and b are Integers (Z/Z) separated by '/'                                     
+ or enter single Integer (Z) : 2/3                                                     
+                                                                                       
+Enter element 3 of 4:                                                                  
+Enter Rational Number as fraction a/b,                                                 
+ where a and b are Integers (Z/Z) separated by '/'                                     
+ or enter single Integer (Z) : 6                                                       
+                                                                                       
+Enter element 4 of 4:                                                                  
+Enter Rational Number as fraction a/b,                                                 
+ where a and b are Integers (Z/Z) separated by '/'                                     
+ or enter single Integer (Z) : -5/7                                                    
+                                                                                       
+Now vec_rational is: -1/2  2/3  6  -5/7                                                
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...                                     
+                                                                                       
+                                                                                       
+Enter strings into vec_string.                                                         
+                                                                                       
+--------------------------------------------------------------                         
+Vector elements over which field?                                                      
+                                                                                       
+--------------------------------------------------------------                         
+   Z (Elements over the filed of Integers x = a)                                       
+   Q (Elements over the field of rational numbers x = a/b)                             
+   R (Elements over the field of real numbers x = a.)                                  
+   C (Elements over the field of complex numbers x = a + i b)                          
+   h (Elements over the field of characters ' ')                                       
+   s (Elements over the field of strings)                                              
+                                                                                       
+--------------------------------------------------------------                         
+    x (to exit)                                                                        
+                                                                                       
+--------------------------------------------------------------                         
+Choose Field :  s                                                                      
+                                                                                       
+                                                                                       
+How many elements are to be stored in this vector? : 7                                 
+                                                                                       
+Enter elements over field of strings, x = a + bi                                       
+                                                                                       
+Enter element 1 of 7: I can't get                                                      
+                                                                                       
+Enter element 2 of 7:                                                                  
+Enter element 3 of 7:                                                                  
+Enter element 4 of 7: no                                                               
+                                                                                       
+Enter element 5 of 7: satisfaction                                                     
+                                                                                       
+Enter element 6 of 7: no no no                                                         
+                                                                                       
+Enter element 7 of 7:                                                                  
+Now vec_string is: I  can't  get  no  satisfaction  no  no                             
+                                                                                       
+         Press ENTER [ <-----||| ] to continue ...   
