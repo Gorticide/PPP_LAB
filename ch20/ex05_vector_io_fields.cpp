@@ -125,8 +125,6 @@ char choose_Field()  {
              << "   h (Elements over the field of characters ' ')\n"
              << "   s (Elements over the field of strings)\n"
              << "\n--------------------------------------------------------------\n"
-             << "    x (to exit)\n"
-             << "\n--------------------------------------------------------------\n"
              << "Choose Field :  ";
 
  std::cin >> field;
