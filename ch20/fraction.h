@@ -8,6 +8,13 @@
 // enhanced in November 2018, merging with rational.h for sorting capabilities
 // and then added instream >> capabilities
 
+/*  November 2019 Overloaded double cast:
+
+    operator double() const { 
+      return double((double)num/(double)den); 
+      }
+ */
+
 #ifndef FRACTION_H
 #define FRACTION_H
 
@@ -40,6 +47,12 @@ class Fraction
     double asDecimal() {
       return double((double)num/(double)den);
     }
+    
+    // Overloaded double cast
+    operator double() const { 
+      return double((double)num/(double)den); 
+      }
+
     Fraction rat_0_1(double x, long N);
 		Fraction add(const Fraction &other);
     Fraction sub(const Fraction &other);
