@@ -299,7 +299,7 @@ void process(std::istream& is2, char Field, my_list<T>& lst, unsigned int sz) {
           
     if ((Field == 's') || (Field == 'S'))   
      { 
-       std::cout << "\nEnter elements over field of strings, x = a + bi\n";
+       std::cout << "\nEnter elements over field of strings:\n";
  	   get_elements(is2, lst, sz);
       }
 
